@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body{
+	font-family: "Microsoft YaHei","黑体","宋体",sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #4e4e4e;
+}
+
+.head {
+	height: 100px;
+	background: #2c2c2c;
+	box-shadow: 0 2px 2px #928d8d;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100; 
+}
+
+.head .logo{
+	float:left;
+}
+
+.head h1{
+	float: left;
+	text-align: center;
+	color: #ffffff;
+	margin-top:6px;
+	margin-left: 18px;
+	margin-right: 54px;
+}
+
+.head .logo .title{
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.head .logo .title-sub{
+	color: #ffffff; 	
+	font-size: 14px;
+	line-height: 24px;
+}
