@@ -1,12 +1,12 @@
 <%@ page language="java" pageEncoding="UTF-8"%>
-<div class="head">
-	<h1>
-		<a href="javascript:void(0)" target="_self" class="logo">
-			<img src="../resources/imgs/header.png" height="50" />
-			<span class="title">缠论君</span>
-			<span class="title-sub">缠论第一站</span>
-		</a>
-	</h1>
+<div class="head">	
+	<div class="logo">
+		<img src="../resources/imgs/header.png" height="100" />
+	</div>
+	<div class="title">
+		<span class="title-main">缠&nbsp;论&nbsp;君</span><br/>
+		<span class="title-sub">缠论第一站</span>
+	</div>
 	<div class="menu">
 		<ul class="sub-menu">
 			<li class="sub-item"><a href="javascript:void(0)">首页</a></li>

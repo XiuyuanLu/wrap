@@ -7,10 +7,13 @@
 <head>
 <base href="${base}">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
 <title>${title}</title>
 <link rel="stylesheet" type="text/css" href="../resources/css/main.css" />
 </head>
 <body>
 	<%@include file="/WEB-INF/pages/common/header.jsp" %>
+	<div class="container"></div>
+	<%@include file="/WEB-INF/pages/common/footer.jsp" %>
 </body>
 </html>
