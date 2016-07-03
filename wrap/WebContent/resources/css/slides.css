@@ -30,13 +30,13 @@
 	margin: 5px;
 	border-radius: 5px;
 	overflow: hidden;
-	background: #2c2c2c;
+	background: #fff;
 	filter: alpha(opacity = 50);
 	line-height: 999px;
 }
 
 #slideBox .hd ul li.on {
-	background: #fff;
+	background: #2c2c2c;
 }
 
 #slideBox .bd {
@@ -62,7 +62,6 @@
 	display: block;
 }
 
-/* 下面是前/后按钮代码，如果不需要删除即可 */
 #slideBox .prev, #slideBox .next {
 	position: absolute;
 	left: 3%;
