@@ -44,8 +44,8 @@ body{
 }
 
 .head .menu{
-	float: left;
-	margin-left: 50px; 
+	float: left; 
+	margin-top: 30px;
 }
 
 .head .menu ul{
@@ -54,12 +54,16 @@ body{
 
 .head .menu li{
 	float:left;
-	padding: 30px 40px;
 }
 
 .head .menu .sub-menu a{
 	color: #ffffff;
 	font-size: 20px;
+	padding: 30px 50px;
+}
+
+.head .menu .sub-menu a:hover{
+	background-color: #928d8d;
 }
 
 .footer .copyright{
