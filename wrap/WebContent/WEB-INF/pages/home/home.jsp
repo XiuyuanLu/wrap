@@ -45,7 +45,7 @@
 	<%@include file="/WEB-INF/pages/common/footer.jsp" %>
 	
 	<script>
-		jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,titCell:".hd li"});
+		jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,titCell: ".hd li",trigger:"click"});
 	</script>
 	
 </body>
