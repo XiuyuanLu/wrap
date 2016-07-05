@@ -76,3 +76,92 @@ body{
 	width: 100%;
 	height: 470px;
 }
+
+.head-parent{
+	height: 50px;
+	background: #2c2c2c;
+	box-shadow: 0 2px 2px #928d8d;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.head-parent a{
+	text-decoration: none;
+}
+
+.head-parent .menu-parent{
+	float: left; 
+}
+
+.head-parent .menu-parent ul{
+	list-style:none;
+}
+
+.head-parent .menu-parent li{
+	float:left;
+}
+
+.head-parent .menu-parent .sub-menu a{
+	color: #ffffff;
+	font-size: 18px;
+	padding: 3px 50px;
+}
+
+.head-sub{
+	height: 80px;
+	background: #E9DFDF;
+	box-shadow: #DDD6D6;
+	position: fixed;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+.head-sub .logo{
+	margin-left: 50px;
+	width: 60px;
+	float: left;
+}
+
+.head-sub .title{
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+
+.head-sub .title span{
+	font-color: #2c2c2c;
+}
+
+.head-sub .title .title-main{
+	font-size: 17px;
+}
+.head-sub .title .title-sub{
+	font-size: 12px;
+}
+
+.head-sub .menu-second{
+	margin-top: 15px;
+}
+
+.head-sub .menu-second .sub-item a{
+	display: block;
+	text-align: center;
+	width: 100px;	
+	text-decoration: none;
+	color: #2c2c2c;
+	font-size: 18px;
+	padding: 3px 30px;
+}
+
+.head-sub .menu-second ul{
+	list-style: none;
+}
+
+.head-sub .menu-second .sub-menu li{
+	float: left;
+}
