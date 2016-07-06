@@ -5,10 +5,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.icaikee.wrap.web.controller.WebContants;
+import com.icaikee.wrap.web.controller.WebConstants;
 
 @Controller
-@RequestMapping(WebContants.PAGE)
+@RequestMapping(WebConstants.PAGE)
 public class HomeController {
 
 	private final static String HOME_PAGE = "home/home";

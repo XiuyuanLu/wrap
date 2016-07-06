@@ -1,6 +1,6 @@
 package com.icaikee.wrap.web.controller;
 
-public class WebContants {
+public class WebConstants {
 
 	public final static String PAGE = "/page";
 

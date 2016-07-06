@@ -31,24 +31,7 @@
 	<%@include file="/WEB-INF/pages/common/header-teaching.jsp" %>
 	<div class="container">
 		<div class="content-box">
-			<table class="content-table" id="content-table">
-				<tr>
-					<td><div class="item"><a href="/wrap/page/teaching/cartoon">1</a></div></td>
-					<td><div class="item">1</div></td>
-				</tr>
-				<tr>
-					<td><div class="item">1</div></td>
-					<td><div class="item">1</div></td>
-				</tr>
-				<tr>
-					<td><div class="item">1</div></td>
-					<td><div class="item">1</div></td>
-				</tr>
-				<tr>
-					<td><div class="item">1</div></td>
-					<td><div class="item">1</div></td>
-				</tr>
-			</table>
+			<img src="${url}"/>
 		</div>
 	</div>
 	
