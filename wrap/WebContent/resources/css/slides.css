@@ -23,7 +23,6 @@
 #slideBox .hd ul li {
 	cursor: pointer;
 	display: inline-block;
-	*display: inline;
 	zoom: 1;
 	width: 10px;
 	height: 10px;
