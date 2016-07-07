@@ -31,13 +31,13 @@
 	<%@include file="/WEB-INF/pages/common/header-teaching.jsp" %>
 	<div class="container">
 		<div class="content-box">
-			<img src="${url}"/>
+			<img id="img" src="${url}"/>
 		</div>
 	</div>
-	
 	<%@include file="/WEB-INF/pages/common/footer.jsp" %>
 	
 	<script>
+		
 	</script>
 	
 </body>
